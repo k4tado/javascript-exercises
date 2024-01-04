@@ -1,5 +1,5 @@
 const reverseString = function (input) {
-  /*let newArray = [];
+  let newArray = [];
   let a = 0;
 
   for (let i = input.length - 1; i >= 0; i--) {
@@ -7,10 +7,7 @@ const reverseString = function (input) {
     newArray[a] = input[i];
     a++;
   }
-  return newArray.join("");*/
-  
-  console.log(input.split("").reverse().join(""));
-  return input.split("").reverse().join("");
+  return newArray.join("");
   
 };
 
