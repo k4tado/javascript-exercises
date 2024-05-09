@@ -1,0 +1,28 @@
+array.forEach((val) => {
+//used to iterate through each value of an array
+
+if (!args.includes(val)) {
+//if the arguments are NOT included then do something
+
+newArray.push(val);
+//push values to the new array
+
+//destructuring    if (min > max) [min, max] = [max, min];
+
+//multiple if statements can most likely be cleaned up EX.
+
+/*
+    if (year % 4 === 0) {
+        if (year % 400 === 0) {
+            return true;
+        } else if (!(year % 100 === 0)) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+    return false;
+
+    TO:   return year % 4 === 0 && (year % 100 !== 0 || year % 400 === 0);
+*/
+
