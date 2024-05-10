@@ -26,3 +26,4 @@ newArray.push(val);
     TO:   return year % 4 === 0 && (year % 100 !== 0 || year % 400 === 0);
 */
 
+// 6.54332.toFixed(3) to round to to nearest 3 decimal place Use Number(6.544332.toFixed(3)) as toFixed returns string on its own
