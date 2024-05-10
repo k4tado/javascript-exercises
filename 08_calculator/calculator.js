@@ -22,9 +22,20 @@ const multiply = function(array) {
   return product;
 };
 
-const power = function() {
-	
+const power = function(num, pow) {
+  // 4 raised to the power of 3 is 64
+  let x = num;
+  if (pow > 1) {
+    for ( let i = 0; i < pow; i++) {
+      x = num * num;
+    }
+  } else {
+    return num;
+  }
+
 };
+
+// 4 times 4 = 16, times 4 = 64
 
 const factorial = function() {
 	
